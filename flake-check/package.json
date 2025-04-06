@@ -1,0 +1,22 @@
+{
+  "name": "flake-check",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "commander": "^13.1.0",
+    "glob": "^11.0.1"
+  },
+  "bin": {
+    "flake-check": "./bin/setup.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
