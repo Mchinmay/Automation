@@ -71,7 +71,7 @@
  👤 Author`
  Created with ❤️ by Chinmay
  ## Author
-This project was created and maintained by **[Your Name](https://github.com/Mchinmay)**.
+This project was created and maintained by **[Chinmay](https://github.com/Mchinmay)**.
 
  
 
