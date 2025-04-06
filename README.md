@@ -70,5 +70,8 @@
 
  👤 Author`
  Created with ❤️ by Chinmay
+ ## Author
+This project was created and maintained by **[Your Name](https://github.com/Mchinmay)**.
+
  
 
