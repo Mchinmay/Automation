@@ -1,5 +1,6 @@
 {
   "name": "@chinmay/flake-check",
+  "version": "1.0.1",
   "description": "CLI tool to detect flaky E2E test patterns in JavaScript-based test frameworks.",
   "main": "bin/setup.js",
   "bin": {
@@ -12,13 +13,13 @@
     "url": "https://github.com/Mchinmay/Automation.git"
   },
   "keywords": ["e2e", "testing", "flake", "cli", "cypress", "playwright", "testcafe", "webdriverio"],
-  "version": "1.0.1",
   "dependencies": {
     "glob": "^10.3.10"
   },
   "engines": {
     "node": ">=16"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
-
-
