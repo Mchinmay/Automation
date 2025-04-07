@@ -37,35 +37,31 @@
  ## 📦 Installation
  
  ```bash
- npm install -g flake-check
- 
- Or run locally with npx flake-check "tests/**/*.js" -v
- 
- 🚀 Usage
- bash
- Copy
- Edit
- flake-check "tests/**/*.js" -v
- 
- 🛠 Add Custom Rules
- js
- Copy
- Edit
- // lib/rules/no-alert.js
- module.exports = {
-   name: "no-alert",
-   message: "Avoid using alert() in tests",
-   check: (content) => content.includes("alert("),
- };
- 
- 🧪 Local Dev Setup
- bash
- Copy
- Edit
- git clone https://github.com/YOUR-USERNAME/flake-check.git
- cd flake-check
- npm install
- node ./bin/setup.js "tests/**/*.js" -v
+ n## 📦 Installation & Usage
+
+### 🔧 Install globally via npm
+
+```bash
+npm install -g flake-check
+Then run it from anywhere in your project:
+
+bash
+Copy
+Edit
+flake-check "tests/**/*.js" -v
+⚡ Or run directly with npx (no install needed)
+bash
+Copy
+Edit
+npx flake-check "tests/**/*.js" -v
+You can pass any glob pattern to target specific test files:
+
+bash
+Copy
+Edit
+flake-check "cypress/e2e/**/*.cy.js" -v
+flake-check "playwright/tests/*.spec.js" -v
+Use the -v flag for verbose output.
 ```
 
  👤 Author`
