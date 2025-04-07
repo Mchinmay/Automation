@@ -1,5 +1,5 @@
 {
-  "name": "@chinmay/flake-check",
+  "name": "flake-check",
   "version": "1.0.1",
   "description": "CLI tool to detect flaky E2E test patterns in JavaScript-based test frameworks.",
   "main": "bin/setup.js",
