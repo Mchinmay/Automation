@@ -14,7 +14,8 @@
   },
   "keywords": ["e2e", "testing", "flake", "cli", "cypress", "playwright", "testcafe", "webdriverio"],
   "dependencies": {
-    "glob": "^10.3.10"
+    "glob": "^10.3.10",
+     "commander": "^11.1.0"
   },
   "engines": {
     "node": ">=16"
