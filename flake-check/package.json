@@ -13,6 +13,7 @@
     "url": "https://github.com/Mchinmay/Automation.git"
   },
   "keywords": ["e2e", "testing", "flake", "cli", "cypress", "playwright", "testcafe", "webdriverio"],
+  "version": "1.0.1",
   "dependencies": {
     "glob": "^10.3.10"
   },
