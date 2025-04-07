@@ -35,33 +35,20 @@
  ---
  
  ## 📦 Installation
- 
- ```bash
- n## 📦 Installation & Usage
-
-### 🔧 Install globally via npm
-
-```bash
+ ```
+🔧 Install globally
 npm install -g flake-check
-Then run it from anywhere in your project:
+Then run it from anywhere:
 
-bash
-Copy
-Edit
 flake-check "tests/**/*.js" -v
-⚡ Or run directly with npx (no install needed)
-bash
-Copy
-Edit
-npx flake-check "tests/**/*.js" -v
-You can pass any glob pattern to target specific test files:
+⚡ Or run with npx (no install needed)
 
-bash
-Copy
-Edit
+npx flake-check "tests/**/*.js" -v
+
+🎯 Examples
 flake-check "cypress/e2e/**/*.cy.js" -v
 flake-check "playwright/tests/*.spec.js" -v
-Use the -v flag for verbose output.
+Use -v for verbose output.
 ```
 
  ## Author
