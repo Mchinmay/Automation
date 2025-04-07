@@ -12,12 +12,13 @@
     "type": "git",
     "url": "https://github.com/Mchinmay/Automation.git"
   },
-  "keywords": ["e2e", "testing", "flake", "cli", "cypress", "playwright", "testcafe", "webdriverio"]
-},
-"dependencies": {
+  "keywords": ["e2e", "testing", "flake", "cli", "cypress", "playwright", "testcafe", "webdriverio"],
+  "dependencies": {
     "glob": "^10.3.10"
   },
-"engines": {
+  "engines": {
     "node": ">=16"
   }
+}
+
 
