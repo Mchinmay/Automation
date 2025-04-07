@@ -64,8 +64,6 @@ flake-check "playwright/tests/*.spec.js" -v
 Use the -v flag for verbose output.
 ```
 
- 👤 Author`
- Created with ❤️ by Chinmay
  ## Author
 This project was created and maintained by **[Chinmay](https://github.com/Mchinmay)**.
 
