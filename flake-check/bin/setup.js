@@ -32,6 +32,6 @@ console.log("🔍 Using glob pattern:", pattern);
       scanFile(file, options);
     }
   } catch (err) {
-    console.error(chalk.red`❌ Glob error:`, err);
+    console.error(chalk.red("❌ Glob error:"), err);
   }
 })();
